@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-color {
+  color: #939393;
+}
+
+.white {
+  color: #ffffff;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebeb;
+  width: 50%;
+  height: 50%;
+}
+
+.bg {
+  width: 700px;
+  height: 250px;
+  background: center
+    url("https://s3-alpha-sig.figma.com/img/f98a/f0e1/2b750c092eac1543bc57ec5957540c36?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mg7K0Tl1uyE1N0B0ALziQqT~ADPt1w6HRd03dtUR~IQDHU~W3upop1WsmuP0SyMNIPHiua856xff1Uf7v-NouOvVBiHttbPctQYLOwYxH2jZvzC4MhKq7EuLhlUslWHyo2VrT8UMJ68jPzuZCDFX4EMBlmyoj9cBNhvXY9JDghIHeKXeYpFdKjMV2u9vRN1uW6x810sekIzc8pAzGl7tXB7wSwZ9Dlvxtdy-Z~MBNZBeqGmm6AqR~oBHkmKUwHbjEnlhY6X6p3ZQSrUO4UCDq2yK~T8G4UdFoUVY~yWd3en8RCWKKQb1ksA1c6VhibeyIjpIQsVCwQneKposijGHxA__");
+}
+
+.ny {
+  color: #ffffff;
+  background-color: #3a3a3ab2;
+}
+
+.avatar {
+  border: #e3e3e3 5px solid;
+  border-radius: 9999px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.online {
+  width: 50px;
+  height: 50px;
+  background-color: #50f27b;
+  border: #e3e3e3 5px solid;
+  border-radius: 9999px;
+  position: relative;
+  right: 50px;
+  top: 25px;
+}
+
+.travel-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flight-number {
+  display: flex;
+  flex-direction: column;
+}
+
+.mile-bar {
+  background-color: #939393;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  border-radius: 9999px;
+}
+
+.mile-bar-inner {
+  background-color: #e0a863;
+  border-radius: 9999px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-content {
+  background-color: #ffffff;
+  width: 700px;
+  padding: 50px;
+}
+.avatar-content {
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.space-text {
+  margin-bottom: 40px;
+}
